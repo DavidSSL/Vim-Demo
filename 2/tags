@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DEFAULT_CONFIG_PATH	elg_talk/batch/elg_talk_batch.py	/^    DEFAULT_CONFIG_PATH = 'configuration\/yaml\/config.yaml'$/;"	v	class:ElgTalkBatch
+ElgTalk	elg_talk/batch/elg_talk_batch.py	/^from elg_talk.elg_talk import ElgTalk$/;"	i
+ElgTalk	elg_talk/elg_talk.py	/^class ElgTalk():$/;"	c
+ElgTalkBatch	elg_talk/batch/elg_talk_batch.py	/^class ElgTalkBatch(object):$/;"	c
+__init__	elg_talk/batch/elg_talk_batch.py	/^    def __init__(self):$/;"	m	class:ElgTalkBatch
+__init__	elg_talk/elg_talk.py	/^    def __init__(self, object_factory, config):$/;"	m	class:ElgTalk
+absolute_import	elg_talk/batch/config.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	elg_talk/batch/elg_talk_batch.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	elg_talk/elg_talk.py	/^from __future__ import absolute_import$/;"	i
+discover_yelps	elg_talk/batch/elg_talk_batch.py	/^    def discover_yelps(self):$/;"	m	class:ElgTalkBatch
+discover_yelps	elg_talk/elg_talk.py	/^    def discover_yelps(self):$/;"	m	class:ElgTalk
+load_config	elg_talk/batch/config.py	/^def load_config(config_path):$/;"	f
+load_config	elg_talk/batch/elg_talk_batch.py	/^from elg_talk.batch.config import load_config$/;"	i
+notify_emails	elg_talk/batch/elg_talk_batch.py	/^    notify_emails = ['leeren@yelp.com']$/;"	v	class:ElgTalkBatch
+optparse	elg_talk/batch/elg_talk_batch.py	/^import optparse$/;"	i
+run	elg_talk/batch/elg_talk_batch.py	/^    def run(self):$/;"	m	class:ElgTalkBatch
+staticconf	elg_talk/batch/config.py	/^import staticconf$/;"	i
+useless_noop_function_four	elg_talk/batch/elg_talk_batch.py	/^    def useless_noop_function_four(self):$/;"	m	class:ElgTalkBatch
+useless_noop_function_one	elg_talk/batch/elg_talk_batch.py	/^    def useless_noop_function_one(self):$/;"	m	class:ElgTalkBatch
+useless_noop_function_three	elg_talk/batch/elg_talk_batch.py	/^    def useless_noop_function_three(self):$/;"	m	class:ElgTalkBatch
+useless_noop_function_two	elg_talk/batch/elg_talk_batch.py	/^    def useless_noop_function_two(self):$/;"	m	class:ElgTalkBatch

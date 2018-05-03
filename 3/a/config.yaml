@@ -1,0 +1,22 @@
+# == Tabs Configuration ==
+#
+module_tabs:
+  - purpose: window viewport
+    keys:
+      go to next tab: gt
+      go to prev tab: gT
+      move current tab left: :-tabmove
+      move current tab right: :+tabmove
+      move tab to last: :tabmove
+      move tab to beginning: :0tabmove
+      go to the first tab: :tabr
+      go to the last tab: :tabl
+      find a tab containing using find: :taf[ind] {file}
+      iterate over tabs: :tabd {cmd}
+
+  - namespace: elg_talk
+    file: /nail/home/leeren/vim_elg/3/a/config.yaml
+
+  - topic: elg
+
+  - brand: yelp

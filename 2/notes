@@ -1,0 +1,61 @@
+Scrolling / Navigation
+Jump/Change list
+Searching gd * gf
+Marks Tags
+
+0. Go to the change.
+-> BAD WAY: 10j
+   DECENT WAY: /search
+   GOOD WAY: M / Ctrl-D (middle)
+0.5 Fix change:
+-> BAD WAY: letter by letter deletion
+   BETTER WAY: fY, curly brace, ciw, ctb
+   GOOD WAY: fp xp
+1. Go into the bottom where it is run.
+-> BAD WAY: variation of js
+   BETTER WAY: Ctrl-e/Ctrl-D/Ctrl-F + zz
+   GOOD WAY: G
+2. Go into the run function.
+-> BAD WAY: js / scrolling 
+   BETTER WAY: /search
+   GOOD WAY: gd / *
+3. goto the load_config fn
+-> BAD WAY: j j j j  / words
+   OK WAY: relative line
+   BETTER WAY: search keyword
+   MASTER WAY: ]M bb
+4. Inspect load_config
+   -> BAD WAY :e via import
+   -> BETTER: :fin config
+   -> GOOD WAY g<Ctrl-]>
+5. Go back
+  -> BAD WAY :e ../../
+  -> BETTER WAY: :buf autocomp
+  -> GOOD WAY <Ctrl-o> or <Ctrl-t>
+6. Go to definition of config_path
+  -> BAD WAY: scrolling / js
+  -> BETTER WAY: searching
+  -> GOODWAY: hash tag
+7. Evaluate DEFAULT_CONFIG_PATH
+ -> BAD WAY :e config.yaml
+ -> BETTER WAY :find config (but look at import)
+ -> GOOD WAY gf
+8. Go to ELGTalk
+    - Name is more clear so direct
+      jumping here makes more sense.
+    - Navigating to definition is
+      harder. We also want to see
+      initializer.
+ -> BAD WAY: trying to navigate to
+           ELGTalk just to gd
+    -fin is fine enough
+    -or direct searching "Elg"
+      after which you gd
+9. Find the problem:
+    BAD WAY: js
+    BETTER: Scrolling or G or Ctrl-y
+10. Go back... jump list!
+11. Going back to the change?
+        Good: Using [m  from where you are
+        Good: Searching for False
+        insane: '.

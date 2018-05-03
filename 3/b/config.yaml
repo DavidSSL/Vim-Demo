@@ -1,0 +1,23 @@
+# == Buffers Configuration ==
+#
+module_buffers:
+  - purpose: file proxy
+    keys:
+      go to first buffer: :br
+      go to last buffer: :bl
+      go to next buffer: :bn
+      go to prev buffer: :bp
+      list buffers: :ls or :buffers 
+      unload / delete buffer: :bd
+      edit buffer N: :[N]b
+      split and edit buffer N: :[N]sb
+      edit buffer bname: :b {bname}
+      split and edit buffer bname: :sb {bname}
+      execute cmd for each buffer: :bufdo {CMD}
+
+  - namespace: elg_talk
+    file: /nail/home/leeren/vim_elg/3/b/config.yaml
+
+  - topic: elg
+
+  - brand: yelp

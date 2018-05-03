@@ -1,0 +1,21 @@
+# == Buffers Configuration ==
+#
+module_windows:
+  - purpose: buffer viewport
+    keys:
+      split current window: Ctrl-W s
+      split current window vertically: Ctrl-W v
+      open new file in vertical split: :vnew {FILE}
+      open new file in split: :new {FILE}
+      split window using find: :sf {FILE}
+      make any command use vert split: :vert {cmd}
+      close window: Ctrl-W q
+      navigate windows: Ctrl-W h/j/k/l
+      alternate windows: Ctrl-W w
+      rotate window: Ctrl-W r
+      execute command for all windows: :windo {cmd}
+
+  - namespace: elg_talk
+    file: /nail/home/leeren/vim_elg/3/c/config.yaml
+
+  - topic: elg

@@ -1,0 +1,7 @@
+# == ELG configuration ==
+
+# Yelp brands
+brands:
+    - eat24
+    - seatme
+    - nowait
